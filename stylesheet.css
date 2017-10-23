@@ -110,7 +110,12 @@ a.blackbgrnd{
 	display:inline-block;
 	margin: 2em 3% 2em 3%;
 }
-
+button{
+	background-color: rgba(0, 0, 0, 0.5);
+	border: none;
+	color: white;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
 /*a{
 	color:inherit
 }
