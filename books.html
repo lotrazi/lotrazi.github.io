@@ -11,11 +11,15 @@
 			 <!-- Navigation -->
 			<nav>
 				<center>
-			  <a href="#home" class="blackbgrnd">Home</a>
+			  <a href="index.html" class="blackbgrnd">Home</a>
 			  <a href="#band" class="blackbgrnd">Books</a>
 			  <a href="#tour" class="blackbgrnd">Characters</a>
 			  <a href="#contact" class="blackbgrnd">Contact</a>
-				</center>
+			  	<audio id="myAudio" autoplay="">
+				<source src="Froot.m4a" type='audio/mp4'>
+				 Your user agent does not support the HTML5 Audio element.
+				</audio>
+				<button type="button" onclick="aud_play_pause()">Play/Pause</button>
 			</nav> 
 			<!-- Slide Show -->
 			<center>
@@ -96,6 +100,16 @@
 			    if (myIndex > x.length) {myIndex = 1}
 			    x[myIndex-1].style.display = "block";
 			    setTimeout(carousel, 3000);
+			}
+		</script>
+		<script>
+			function aud_play_pause() {
+			  var myAudio = document.getElementById("myAudio");
+			  if (myAudio.paused) {
+			    myAudio.play();
+			  } else {
+			    myAudio.pause();
+			  }
 			}
 		</script>
 	</body>
