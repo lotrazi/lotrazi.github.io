@@ -62,11 +62,20 @@ a.blackbgrnd{
 	font-size: 16px;
 	text-decoration: none
 }
+.mySlides{
+	display: table-cell;
+	vertical-align: middle;
+}
 .slideshow{
 	padding: 3.5em 0em 0 0em;
 	margin: 0 0 0 0;
 	background-color: #000000;
-	max-height: 24em
+	height: 20em;
+	line-height: 20em;
+	/*display: table-cell;*/
+	vertical-align: middle;
+	text-align: center;
+	overflow: hidden;
 }
 .container{
 	display:inline-block;
