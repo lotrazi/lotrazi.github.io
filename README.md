@@ -1,3 +1,0 @@
-# lotrazi.github.io
-So, you found my GitHub...
-Cool... I guess?
